@@ -1,0 +1,100 @@
+Durée totale > 1an (6 juin 2018 <> NOW) + Temps restant
+Durée restante > 14 mois + 4 semaines + 5 jours		
+
+==================PARALLEL WORK================== > 2 jours
+
+x Présenter le TAF restant à faire à Jaz.B > 1 jour
+x RDV avec ReactJS
+x Dire à Jaz.B que tu work à 20% sur un projet autre que celui de pakgne > 1 jour
+
+=================EXPO CLIENT================== > 1 mois + 3 semaines + 10 jours
+
+x create git page of this file
+x post-upgrade > 1 semaine 4 jours
+	x listView to FlatList > 1 semaine
+	x check entire code to remove useless dependencies > 1 jour
+	x update all necessary dependencies > 1 jour
+	x adapt react-navigation new syntax on my entire code > 1 jour
+	x check that all working fine > 1 jour
+
+x transpiler BABEL/Jest test (se reférer aux 2 onglets sur chrome) > 1 jour
+x remove checky on videoList > 4 jours
+  [ Quand la connection est lente, et qu'on charge plusieurs éléments puis on s'arrête à un point,
+    alors, le chargement des élements restants ( ou mm précédents quand ils n'ont pas encore chargé) 
+    peuvent provoquer une mouvement haut bas bas haut repétitif et rapide de la flatList sur l'écran,
+    ce qui est très desagréable pour l'utilisateur ]
+
+x Tester l'app sur iOS > 1 semaine
+  [si c possible on rend l'app utilisable à ce stade(MAC & iPhone),
+   sinon, on passe à la phase suivante]
+
+x Créer le module liste des favories > 1 mois
+x push > 1 jour
+x Porter l'app sur androïd > 1 semaine
+
+==================ANDROID================== > 6 mois + 6 semaines + 8 jours
+
+x Authentification > 1 semaine 1 jour
+	x On pourra acceder à toutes les données Google de l'utilisateur > 1 jour
+	x implémenter le système d'authentification > 1 semaine
+
+x Proposer un bouton s'abonner si l'utilisateur n'est pas encore abonné lors de l'ouverture de l'App > 1 semaine
+
+x FireBase > 1 semaine
+	x faire une base de données solide qui puisse acceuillir
+		x les données stockées en local 
+			x les données react-redux
+				x de l'utilisateur
+					x ses likes
+					x ses commentaires
+					x ses favories
+					x son historique de recherche
+					x ses fichiers images
+					x son nom
+					x sa description
+					x ses téléchargements
+					x toutes les données relative au chat
+x Parameter > 2 semaines
+	x éditer > 1 semaine
+		x l'image du background parameter
+		x sa photo de profil
+		x son nom
+		x sa description
+	x utiliser certaines des options proposer (A FAIRE PLUS TARD) > 1 semaine
+x Search > 3 jours
+	x implémenter le composant "searchHistory.js" qui affiche l'historique > 3 jours
+	  de recherche quand un utilisateur souhaite effectuer un recherche
+x VideoList > 1 jour
+	x donner la possibilité à l'utilisateur de pouvoir > 1 jour
+		x liker vraiment à son nom
+		x disliker vraiment à son nom
+x ImageViewer > 1 jour
+	x donner la possibilité à l'utilisateur de pouvoir > 1 jour
+		x liker
+		x commenter
+x CommentList > 1 semaine 2 jours
+	x Mettre le nombre de commentaire au format 1k, 1M, etc ... > 1 jour
+	x mettre l'indicatreur "v" (juste) au niveau du modal top/recent > 1 jour
+	x faire en sorte que l'utilisateur puisse > 1 semaine
+		x commenter dans l'app via la DB youtube 
+		x liker dans l'app via la DB fireBase (sauf si entre temps youtube offre cette possibilité via son API)
+x le chat > 1 mois
+	x intégrer un chat bot
+x Responsive design > 1 mois
+x notification system > 1 mois
+x contenu payant > 2 mois 
+x test entire app (unit test, test d'intégration, etc...) > 2 mois
+
+==================iOS================== > 3 mois
+
+x Adapter l'app sur iOS > 1 mois
+x test entire app (unit test, test d'intégration, etc...) > 2 mois
+
+=================FIX BUG================= > 2 mois
+
+x others fix > 2 mois 
+
+=================RELEASE=================
+
+x first stable release > let's enjoy money :)
+
