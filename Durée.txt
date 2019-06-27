@@ -1,35 +1,23 @@
 Durée totale > 1an (6 juin 2018 <> NOW) + Temps restant
-Durée restante > 14 mois + 4 semaines + 5 jours		
+Durée restante > 17 mois + 6 semaines + 6 jours		
 
-==================PARALLEL WORK================== > 2 jours
+==================PARALLEL WORK===============
 
+x Faire un schema du travail restant à faire pour pouvoir > 1 jour
 x Présenter le TAF restant à faire à Jaz.B > 1 jour
-x RDV avec ReactJS
-x Dire à Jaz.B que tu work à 20% sur un projet autre que celui de pakgne > 1 jour
+x Sephora 
 
-=================EXPO CLIENT================== > 1 mois + 3 semaines + 10 jours
+=================EXPO CLIENT================== > 1 mois + 3 semaines + 12 jours
 
-x create git page of this file
-x post-upgrade > 1 semaine 4 jours
-	x listView to FlatList > 1 semaine
-	x check entire code to remove useless dependencies > 1 jour
-	x update all necessary dependencies > 1 jour
-	x adapt react-navigation new syntax on my entire code > 1 jour
-	x check that all working fine > 1 jour
-
-x transpiler BABEL/Jest test (se reférer aux 2 onglets sur chrome) > 1 jour
+x Créer le module liste des favories > 1 mois
 x remove checky on videoList > 4 jours
   [ Quand la connection est lente, et qu'on charge plusieurs éléments puis on s'arrête à un point,
     alors, le chargement des élements restants ( ou mm précédents quand ils n'ont pas encore chargé) 
     peuvent provoquer une mouvement haut bas bas haut repétitif et rapide de la flatList sur l'écran,
     ce qui est très desagréable pour l'utilisateur ]
-
-x Tester l'app sur iOS > 1 semaine
-  [si c possible on rend l'app utilisable à ce stade(MAC & iPhone),
-   sinon, on passe à la phase suivante]
-
-x Créer le module liste des favories > 1 mois
+x faire un schema de l'app > 1 jour
 x push > 1 jour
+
 x Porter l'app sur androïd > 1 semaine
 
 ==================ANDROID================== > 6 mois + 6 semaines + 8 jours
@@ -47,6 +35,7 @@ x FireBase > 1 semaine
 				x de l'utilisateur
 					x ses likes
 					x ses commentaires
+					x partages
 					x ses favories
 					x son historique de recherche
 					x ses fichiers images
@@ -54,6 +43,7 @@ x FireBase > 1 semaine
 					x sa description
 					x ses téléchargements
 					x toutes les données relative au chat
+					x toutes les données relatve a la
 x Parameter > 2 semaines
 	x éditer > 1 semaine
 		x l'image du background parameter
@@ -72,18 +62,51 @@ x ImageViewer > 1 jour
 	x donner la possibilité à l'utilisateur de pouvoir > 1 jour
 		x liker
 		x commenter
+		x télécharger l'image
+		x cliquer sur le nom du user pour accéder à sa page de profil d'un utilisateur
+			x parser le nom du user au format 2k2M
 x CommentList > 1 semaine 2 jours
 	x Mettre le nombre de commentaire au format 1k, 1M, etc ... > 1 jour
 	x mettre l'indicatreur "v" (juste) au niveau du modal top/recent > 1 jour
 	x faire en sorte que l'utilisateur puisse > 1 semaine
 		x commenter dans l'app via la DB youtube 
 		x liker dans l'app via la DB fireBase (sauf si entre temps youtube offre cette possibilité via son API)
+	x #GAMIFICATION 
+		x mettre en place un système qui affiche des goodies pour des users les plus méritants
+			x les 5 1er commentaire sur une video
+			x le plus grand likeur
+			x le plus grand commenteur
+			x le plus grand partageur
+x Comment > 1 semaine
+	x faire en sorte que l'utilisateur puisse > 1 semaine
+		x commenter dans l'app via la DB youtube 
+		x liker dans l'app via la DB fireBase (sauf si entre temps youtube offre cette possibilité via son API)
+	x ajouter un "Lire la suite"
+	x Gérer
+		x Les liens
+		x les emojis 
+x créer une view de présentation de l'app > 1 semaine
+x UserProfileView > 1 semaine
 x le chat > 1 mois
+	x chat basique
+	x chat complexe
+	x sécurité
 	x intégrer un chat bot
+x Animation > 1 mois
 x Responsive design > 1 mois
 x notification system > 1 mois
 x contenu payant > 2 mois 
+x Faire en sorte que les videos ou le contenu payant soit personnalisé en fonction de l'utilisateur > 3 mois
+	x Pour se faire
+		x exploiter
+			x l'ID des videos
+			x le pourcentage de temps passé par un utilisateur sur une vidéo
+		x stocker ses information dans la DB
+		x Mettre en place une IA qui se charge de gérer le tout
 x test entire app (unit test, test d'intégration, etc...) > 2 mois
+	x mettre en place l'environnement de test >
+		x jest
+		x babel
 
 ==================iOS================== > 3 mois
 
@@ -92,9 +115,11 @@ x test entire app (unit test, test d'intégration, etc...) > 2 mois
 
 =================FIX BUG================= > 2 mois
 
-x others fix > 2 mois 
+x others fix > 2 mois
 
 =================RELEASE=================
 
 x first stable release > let's enjoy money :)
 
+==========================================
+NB: Après 5h de travail, prendre une pause
