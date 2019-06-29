@@ -1,26 +1,40 @@
 Durée totale > 1an (6 juin 2018 <> NOW) + Temps restant
-Durée restante > 17 mois + 6 semaines + 6 jours		
+Durée restante > 19 mois	
 
 ==================PARALLEL WORK===============
 
+x Sephora
+x dire à Jaz B que je voyage la semaine prochaine
+x travel to douala on next week
+
+=================EXPO CLIENT================== > 1 mois + 2 semaines + 12 jours
+
+x buy battery for mouse
+
+v push > 1 jour
+
+x faire un schema de l'app > 1 jour
 x Faire un schema du travail restant à faire pour pouvoir > 1 jour
 x Présenter le TAF restant à faire à Jaz.B > 1 jour
-x Sephora 
 
-=================EXPO CLIENT================== > 1 mois + 3 semaines + 12 jours
-
-x Créer le module liste des favories > 1 mois
-x remove checky on videoList > 4 jours
-  [ Quand la connection est lente, et qu'on charge plusieurs éléments puis on s'arrête à un point,
-    alors, le chargement des élements restants ( ou mm précédents quand ils n'ont pas encore chargé) 
-    peuvent provoquer une mouvement haut bas bas haut repétitif et rapide de la flatList sur l'écran,
-    ce qui est très desagréable pour l'utilisateur ]
-x faire un schema de l'app > 1 jour
+x composant qui présente l'app > 1 semaine
+  [En version test, executer à chaque ouverture de l'app]
+  [En version de production, veuillez à executer une seule fois cad à la première ouverture de l'app]
+	x 1 - Bienvenu dans l'application Pakgne
+	x 2 - Vous pourrez y voir toutes les videos de vos stars préférés,
+	      dialoguer entre fan et partager vos émotions
+	x 3 - Et surtout n'oubliez pas de vous amuser :) 
+x check all things that we can do now on "ANDROID" section
 x push > 1 jour
+
+==================ANDROID================== > 6 mois + 6 semaines + 8 jours
 
 x Porter l'app sur androïd > 1 semaine
 
-==================ANDROID================== > 6 mois + 6 semaines + 8 jours
+x change colorEdgeEffect 
+	x google search
+		x How to change color edge effect in react native
+		x How to change color of the scroll limit in android studio
 
 x Authentification > 1 semaine 1 jour
 	x On pourra acceder à toutes les données Google de l'utilisateur > 1 jour
@@ -30,7 +44,7 @@ x Proposer un bouton s'abonner si l'utilisateur n'est pas encore abonné lors de 
 
 x FireBase > 1 semaine
 	x faire une base de données solide qui puisse acceuillir
-		x les données stockées en local 
+		x les données stockées en local
 			x les données react-redux
 				x de l'utilisateur
 					x ses likes
@@ -85,14 +99,48 @@ x Comment > 1 semaine
 	x Gérer
 		x Les liens
 		x les emojis 
-x créer une view de présentation de l'app > 1 semaine
+x Favorite > 1 semaine
+	x Ajouter
+		x la fonctionnalité "Tout supprimer"
+		x un système de classement des élement favoris
+		x une desérialisation plus efficace des éléments favoris
+		x la recherche d'un element
+
 x UserProfileView > 1 semaine
 x le chat > 1 mois
 	x chat basique
 	x chat complexe
 	x sécurité
 	x intégrer un chat bot
-x Animation > 1 mois
+
+x transformer VideoViewer, CommentViewer et CommentReplyViewer pour qu'ils soient des composants animables > 1 mois
+x push > 1 jour
+
+x all animation/son android/iOS > 1 mois
+	x Favorite
+		x lorqu'on appui sur le bouton étoile d'une video, 
+		  alors la video disparait en s'animant + son, puis le reste des videos remontent en s'animant 
+		  pour occupé l'espace vide
+	x FEED
+		x quand on clique que sur le bouton favori, son + animation de l'étoile 
+		  de son point de départ jusqu'au bouton favori de la barre de titre
+		x quand on clique que sur le bouton coeur, il yia une petite étincelle + son
+		  comme sur celui de twitter
+	x TALK 
+		x lorsqu'un autre user est en train d'écrire, faire une petite animation
+		  avec les "...", comme cela se fait sur whatsApp
+		x lorqu'un message apparait ou que l'on poste un message, jouer un son
+	x VideoViewer
+		x Réduire la video en glissant les doigts comme cela se fait sur l'application YouTube
+	x CommentViewer
+		x On peut glisser vers le bas ou vers le haut lorsqu'on se trouve sur l'une des deux
+		  extrêmités pour fermer les commentaires
+		x lorsqu'on appui sur "le bouton des réponses", CommentReplyViewer s'affiche en faisant
+		  un slide du bas vers le haut
+	x ImageViewer
+		x les utisateurs doivent manipuler l'image dans toutes les directions
+x push > 1 jour
+
 x Responsive design > 1 mois
 x notification system > 1 mois
 x contenu payant > 2 mois 
@@ -110,10 +158,17 @@ x test entire app (unit test, test d'intégration, etc...) > 2 mois
 
 ==================iOS================== > 3 mois
 
-x Adapter l'app sur iOS > 1 mois
+x Adapter l'app de base sur iOS > 1 semaine
+x 
 x test entire app (unit test, test d'intégration, etc...) > 2 mois
 
 =================FIX BUG================= > 2 mois
+
+x remove checky on videoList > 4 jours
+  [ Quand la connection est lente, et qu'on charge plusieurs éléments puis on s'arrête à un point,
+    alors, le chargement des élements restants ( ou mm précédents quand ils n'ont pas encore chargé) 
+    peuvent provoquer une mouvement haut bas bas haut repétitif et rapide de la flatList sur l'écran,
+    ce qui est très desagréable pour l'utilisateur ]
 
 x others fix > 2 mois
 
