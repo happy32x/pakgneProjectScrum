@@ -4,18 +4,27 @@ Durée restante > 19 mois
 ==================PARALLEL WORK===============
 
 x Sephora
-x dire à Jaz B que je voyage la semaine prochaine
-x travel to douala on next week
+x Eyo mes 300F
+x travel to douala on this week
+x faire un tri de "new music"
+x prune pour la famille
+x buy battery for mouse
 
 =================EXPO CLIENT================== > 1 mois + 2 semaines + 12 jours
 
-x buy battery for mouse
+v toast on favorite adding & deletion
+v faire un schema de l'app > 1 jour
+> push > 1 jour
 
-v push > 1 jour
+x test metro iOS simulator
 
-x faire un schema de l'app > 1 jour
-x Faire un schema du travail restant à faire pour pouvoir > 1 jour
+> Faire un schema du travail restant à faire pour pouvoir > 1 jour
 x Présenter le TAF restant à faire à Jaz.B > 1 jour
+x proposer à ma go d'être la bêta-testeuse en chef
+
+x check all things that we can do now on "ANDROID" section
+	x Mettre le nombre de commentaire au format 1k, 1M, etc ... > 1 jour
+	x mettre l'indicatreur "v" (juste) au niveau du modal top/recent > 1 jour
 
 x composant qui présente l'app > 1 semaine
   [En version test, executer à chaque ouverture de l'app]
@@ -24,8 +33,12 @@ x composant qui présente l'app > 1 semaine
 	x 2 - Vous pourrez y voir toutes les videos de vos stars préférés,
 	      dialoguer entre fan et partager vos émotions
 	x 3 - Et surtout n'oubliez pas de vous amuser :) 
-x check all things that we can do now on "ANDROID" section
+
+x update schema.txt
 x push > 1 jour
+
+x Mise en place du chat basique > 1 semaine
+x push > 1 jourgrnerge
 
 ==================ANDROID================== > 6 mois + 6 semaines + 8 jours
 
@@ -64,7 +77,7 @@ x Parameter > 2 semaines
 		x sa photo de profil
 		x son nom
 		x sa description
-	x utiliser certaines des options proposer (A FAIRE PLUS TARD) > 1 semaine
+	x développer certaines des options proposer dans Parameter (A FAIRE PLUS TARD) > 1 semaine
 x Search > 3 jours
 	x implémenter le composant "searchHistory.js" qui affiche l'historique > 3 jours
 	  de recherche quand un utilisateur souhaite effectuer un recherche
@@ -80,8 +93,6 @@ x ImageViewer > 1 jour
 		x cliquer sur le nom du user pour accéder à sa page de profil d'un utilisateur
 			x parser le nom du user au format 2k2M
 x CommentList > 1 semaine 2 jours
-	x Mettre le nombre de commentaire au format 1k, 1M, etc ... > 1 jour
-	x mettre l'indicatreur "v" (juste) au niveau du modal top/recent > 1 jour
 	x faire en sorte que l'utilisateur puisse > 1 semaine
 		x commenter dans l'app via la DB youtube 
 		x liker dans l'app via la DB fireBase (sauf si entre temps youtube offre cette possibilité via son API)
@@ -102,13 +113,14 @@ x Comment > 1 semaine
 x Favorite > 1 semaine
 	x Ajouter
 		x la fonctionnalité "Tout supprimer"
-		x un système de classement des élement favoris
-		x une desérialisation plus efficace des éléments favoris
+		x un système de classement des élement favoris (Image, Video, autre)
+		x une desérialisation plus efficace des éléments favoris 
+		  [En général les éléments favoris sont enregistrés dans le phone de l'utilisiteur,
+		   donc pour un chargement rapide, on va privilégier les données locales]
 		x la recherche d'un element
 
 x UserProfileView > 1 semaine
-x le chat > 1 mois
-	x chat basique
+x compléter le chat > 1 mois
 	x chat complexe
 	x sécurité
 	x intégrer un chat bot

@@ -1,0 +1,59 @@
+App [/]
+	Root [/Navigation] 
+		Main [/Components]
+			BarStatus
+			RootTab
+				Header
+					FavoriteViewer
+						CommonHeader
+						FavoriteList
+							EmptyDynamic
+							Favorite
+								Star
+					SearchViewer
+						VideoListMini
+							VideoMini
+								VideoMiniLoader
+								VideoViewer
+									YoutubeView
+										WebView
+									VideoViewerList
+										VideoViewerList_HeaderComponent
+											RateVideoViewer
+										VideoViewerList_CommentHeader
+										VideoViewerList_CommentEmpty
+										VideoMini +
+										Comment
+											ImageViewerDynamic
+												ImageHeader
+												ImageContent
+											CommentListReply	
+												CommentReply	
+													ImageViewerDynamic	
+												CommentReplyHeader
+												CommentLoading
+												CommentEmpty
+										CommentLoading
+										ModalCommentTopRecent [/Modal]
+					ParameterViewer
+						ParameterHeader
+						ParameterViewerContent
+							ParameterElement
+								CommonHeader
+								EmptyDynamic
+							...
+				VideoList
+					HeaderContentIndicator
+					Video
+						Star
+						VideoLoader
+						VideoViewer +
+						CommentList
+							Comment +
+							CommentHeader
+							CommentLoading
+							CommentEmpty
+							ModalCommentTopRecentStatic [/Modal]
+				Default
+				DefaultShow
+					HeaderContentIndicator
