@@ -1,4 +1,6 @@
 App [/]
+    AppIntroSlider [Only on first launch]
+    Entry [/]
 	Root [/Navigation] 
 		Main [/Components]
 			BarStatus

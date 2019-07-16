@@ -1,44 +1,16 @@
 Durée totale > 1an (6 juin 2018 <> NOW) + Temps restant
-Durée restante > 19 mois	
+Durée restante > 19 mois
 
-==================PARALLEL WORK===============
+================PARALLEL WORK=================
 
 x Sephora
-x Eyo mes 300F
-x travel to douala on this week
 x faire un tri de "new music"
-x prune pour la famille
-x buy battery for mouse
+x mettre en place un suivi de projet pour JazB > TRELLO
 
 =================EXPO CLIENT================== > 1 mois + 2 semaines + 12 jours
 
-v toast on favorite adding & deletion
-v faire un schema de l'app > 1 jour
-> push > 1 jour
-
-x test metro iOS simulator
-
-> Faire un schema du travail restant à faire pour pouvoir > 1 jour
-x Présenter le TAF restant à faire à Jaz.B > 1 jour
-x proposer à ma go d'être la bêta-testeuse en chef
-
-x check all things that we can do now on "ANDROID" section
-	x Mettre le nombre de commentaire au format 1k, 1M, etc ... > 1 jour
-	x mettre l'indicatreur "v" (juste) au niveau du modal top/recent > 1 jour
-
-x composant qui présente l'app > 1 semaine
-  [En version test, executer à chaque ouverture de l'app]
-  [En version de production, veuillez à executer une seule fois cad à la première ouverture de l'app]
-	x 1 - Bienvenu dans l'application Pakgne
-	x 2 - Vous pourrez y voir toutes les videos de vos stars préférés,
-	      dialoguer entre fan et partager vos émotions
-	x 3 - Et surtout n'oubliez pas de vous amuser :) 
-
-x update schema.txt
-x push > 1 jour
-
 x Mise en place du chat basique > 1 semaine
-x push > 1 jourgrnerge
+x push > 1 jour
 
 ==================ANDROID================== > 6 mois + 6 semaines + 8 jours
 
@@ -70,7 +42,7 @@ x FireBase > 1 semaine
 					x sa description
 					x ses téléchargements
 					x toutes les données relative au chat
-					x toutes les données relatve a la
+					x toutes les données relatve a la ...
 x Parameter > 2 semaines
 	x éditer > 1 semaine
 		x l'image du background parameter
@@ -91,7 +63,7 @@ x ImageViewer > 1 jour
 		x commenter
 		x télécharger l'image
 		x cliquer sur le nom du user pour accéder à sa page de profil d'un utilisateur
-			x parser le nom du user au format 2k2M
+			x parser le nom du user avec les "..."à la fin
 x CommentList > 1 semaine 2 jours
 	x faire en sorte que l'utilisateur puisse > 1 semaine
 		x commenter dans l'app via la DB youtube 
@@ -171,7 +143,6 @@ x test entire app (unit test, test d'intégration, etc...) > 2 mois
 ==================iOS================== > 3 mois
 
 x Adapter l'app de base sur iOS > 1 semaine
-x 
 x test entire app (unit test, test d'intégration, etc...) > 2 mois
 
 =================FIX BUG================= > 2 mois
